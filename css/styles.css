@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&family=Staatliches&display=swap');
-
 /*!
 * Start Bootstrap - Stylish Portfolio v6.0.1 (https://startbootstrap.com/theme/stylish-portfolio)
 * Copyright 2013-2021 Start Bootstrap
@@ -12,9 +10,8 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
 :root {
-  --bs-blue: #7A9333;
+  --bs-blue: #1D809F;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -27,7 +24,7 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #7A9333;
+  --bs-primary: #1D809F;
   --bs-secondary: #ecb807;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -54,12 +51,12 @@
 
 body {
   margin: 0;
-  font-family: 'Staatliches', cursive;
+  font-family:'Poppins', sans-serif;  
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   color: #212529;
-  background-color: #F4E8C3;
+  background-color: #FFDCB6;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -210,7 +207,7 @@ sup {
 }
 
 a {
-  color: #7A9333;
+  color: #1D809F;
   text-decoration: underline;
 }
 a:hover {
@@ -247,7 +244,7 @@ pre code {
 
 code {
   font-size: 0.875em;
-  color: #d63384;
+  color: #D1E091;
   word-wrap: break-word;
 }
 a > code {
@@ -258,7 +255,7 @@ kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
   color: #fff;
-  background-color: #212529;
+  background-color: #BECC89;
   border-radius: 0.2rem;
 }
 kbd kbd {
@@ -343,7 +340,7 @@ select:disabled {
   opacity: 1;
 }
 
-[list]::-webkit-calendar-pker-indicator {
+[list]::-webkit-calendar-picker-indicator {
   display: none;
 }
 
@@ -566,7 +563,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -577,7 +574,7 @@ progress {
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: 1px solid #D1E091;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
@@ -1940,7 +1937,7 @@ progress {
   margin-bottom: 1rem;
   color: #212529;
   vertical-align: top;
-  border-color: #dee2e6;
+  border-color: #D1E091;
 }
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
@@ -1993,7 +1990,7 @@ progress {
 }
 
 .table-primary {
-  --bs-table-bg: #d2e6ec;
+  --bs-table-bg: #D1E091;
   --bs-table-striped-bg: #c8dbe0;
   --bs-table-striped-color: #000;
   --bs-table-active-bg: #bdcfd4;
@@ -2017,7 +2014,7 @@ progress {
 }
 
 .table-success {
-  --bs-table-bg: #d1e7dd;
+  --bs-table-bg: #D1E091;
   --bs-table-striped-bg: #c7dbd2;
   --bs-table-striped-color: #000;
   --bs-table-active-bg: #bcd0c7;
@@ -2236,7 +2233,7 @@ progress {
   -webkit-margin-end: 0.75rem;
           margin-inline-end: 0.75rem;
   color: #212529;
-  background-color: #FFDEA9;
+  background-color: #e9ecef;
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
@@ -2429,8 +2426,8 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(29, 128, 159, 0.25);
 }
 .form-check-input:checked {
-  background-color: #7A9333;
-  border-color: #7A9333;
+  background-color: #1D809F;
+  border-color: #1D809F;
 }
 .form-check-input:checked[type=checkbox] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
@@ -2439,8 +2436,8 @@ textarea.form-control-lg {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
 }
 .form-check-input[type=checkbox]:indeterminate {
-  background-color: #7A9333;
-  border-color: #7A9333;
+  background-color: #1D809F;
+  border-color: #1D809F;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 .form-check-input:disabled {
@@ -2517,7 +2514,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #7A9333;
+  background-color: #BECC89;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2532,21 +2529,21 @@ textarea.form-control-lg {
   }
 }
 .form-range::-webkit-slider-thumb:active {
-  background-color: #bbd9e2;
+  background-color: #7A9333;
 }
 .form-range::-webkit-slider-runnable-track {
   width: 100%;
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: #dee2e6;
+  background-color: #BECC89;
   border-color: transparent;
   border-radius: 1rem;
 }
 .form-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #7A9333;
+  background-color: #1D809F;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2568,7 +2565,7 @@ textarea.form-control-lg {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: #dee2e6;
+  background-color: #BECC89;
   border-color: transparent;
   border-radius: 1rem;
 }
@@ -2690,7 +2687,7 @@ textarea.form-control-lg {
   color: #212529;
   text-align: center;
   white-space: nowrap;
-  background-color: #e9ecef;
+  background-color: #BECC89;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
 }
@@ -2956,8 +2953,8 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #196d87;
-  border-color: #17667f;
+  background-color: #7A9333;
+  border-color: #7A9333;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -2975,8 +2972,8 @@ textarea.form-control-lg {
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #7A9333;
-  border-color: #7A9333;
+  background-color: #1D809F;
+  border-color: #1D809F;
 }
 
 .btn-secondary {
@@ -3210,7 +3207,7 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(29, 128, 159, 0.5);
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #7A9333;
+  color: #1D809F;
   background-color: transparent;
 }
 
@@ -3690,7 +3687,7 @@ textarea.form-control-lg {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #7A9333;
+  background-color: #1D809F;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #adb5bd;
@@ -4438,7 +4435,7 @@ textarea.form-control-lg {
 }
 .accordion-button:not(.collapsed) {
   color: #1a738f;
-  background-color: #e8f2f5;
+  background-color:  #7A9333;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 .accordion-button:not(.collapsed)::after {
@@ -5513,7 +5510,7 @@ textarea.form-control-lg {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5615,7 +5612,8 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
@@ -6103,10 +6101,10 @@ textarea.form-control-lg {
 }
 
 .link-primary {
-  color: #7A9333;
+  color: #e9c4b6;
 }
 .link-primary:hover, .link-primary:focus {
-  color: #17667f;
+  color: #7A9333;
 }
 
 .link-secondary {
@@ -7212,7 +7210,7 @@ textarea.form-control-lg {
 }
 
 .font-monospace {
-  font-family: 'Poppins', sans-serif; !important;
+  font-family: var(--bs-font-monospace) !important;
 }
 
 .fs-1 {
@@ -7335,11 +7333,11 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #7A9333 !important;
+  color: #1D809F !important;
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #8D543F !important;
 }
 
 .text-success {
@@ -7391,7 +7389,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #7A9333 !important;
+  background-color: #8c9663 !important;
 }
 
 .bg-secondary {
@@ -10841,6 +10839,32 @@ html {
   height: 100%;
 }
 
+h1{
+  font-family: 'Chelsea Market', cursive;
+}
+
+h2{
+  font-family: 
+   'M PLUS Rounded 1c', sans-serif;
+}
+
+h3{
+   font-family: Poppins;
+   font-size:400;
+
+}
+
+p{
+   font-family: Poppins;
+   font-size:400;
+
+}
+
+a{
+   font-family: Poppins;
+   font-size:400;
+}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -10867,14 +10891,14 @@ html {
   height: 50px;
   text-align: center;
   color: #fff;
-  background: rgba(52, 58, 64, 0.5);
+  background: rgba(169, 101, 76, 0.7);
   line-height: 45px;
 }
 .scroll-to-top:focus, .scroll-to-top:hover {
   color: #fff;
 }
 .scroll-to-top:hover {
-  background: #343a40;
+  background: #BECC89;
 }
 .scroll-to-top i {
   font-weight: 800;
@@ -10888,7 +10912,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #7A932B;
+  background: #BECC89;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10953,7 +10977,7 @@ html {
   height: 50px;
   text-align: center;
   color: #fff;
-  background: rgba(52, 58, 64, 0.5);
+  background: rgba(169, 101, 76, 0.7);
   line-height: 50px;
   z-index: 999;
 }
@@ -10961,7 +10985,7 @@ html {
   color: #fff;
 }
 .menu-toggle:hover {
-  background: #343a40;
+  background: #BECC89;
 }
 
 .btn-xl {
@@ -10970,7 +10994,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://i.picsum.photos/id/1056/3988/2720.jpg?hmac=qX6hO_75zxeYI7C-1TOspJ0_bRDbYInBwYeoy_z_h08");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://i.picsum.photos/id/468/6373/4253.jpg?hmac=F2tYGhA_f5H6N9n8Lg79G5KWMruB0JcxKCHTQepBep0");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10978,6 +11002,7 @@ html {
 .callout h2, .callout .h2 {
   font-size: 3.5rem;
   font-weight: 700;
+  font-style: italic;
   display: block;
   max-width: 30rem;
 }
@@ -10993,12 +11018,12 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #E86E00;
+  background-color: #BECC89;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #7A9333;
   text-decoration: none;
 }
 
@@ -11025,7 +11050,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://raw.githubusercontent.com/Verogatica/clase13_dno037/main/assets/img/Ilustracio%CC%81n_sin_ti%CC%81tulo%207.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://raw.githubusercontent.com/Verogatica/clase13_dno037/main/assets/img/Ilustracio%CC%81n_sin_ti%CC%81tulo%2010.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11055,7 +11080,7 @@ footer.footer .social-link:hover {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(33, 37, 41, 0.2);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -11103,7 +11128,7 @@ footer.footer .social-link:hover {
             clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(198, 147, 128, 0.9);
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
@@ -11111,7 +11136,7 @@ footer.footer .social-link:hover {
 
 .service-icon {
   background-color: #fff;
-  color: #7A9333;
+  color: #D1E091;
   height: 7rem;
   width: 7rem;
   display: block;
